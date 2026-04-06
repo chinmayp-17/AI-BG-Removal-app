@@ -17,4 +17,4 @@ app.get('/', (req, res) => res.send("API Working"))
 
 app.listen(PORT, () => console.log("Server Running on port " + PORT))
 
-module.exports = app;
+export default app;
